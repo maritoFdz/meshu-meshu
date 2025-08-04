@@ -28,7 +28,6 @@ public class EnhancedText : MonoBehaviour
 
     void Update()
     {
-        TMP_TextInfo textInfo = outputText.textInfo;
         Vector3[] vertices;
 
         for (int i = 0; i < Animations.Count; i++)
